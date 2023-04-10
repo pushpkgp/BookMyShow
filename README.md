@@ -1,6 +1,5 @@
-# Design BookMyShow
-
-## Problem Statement
+# Problem Statement
+Design a movie booking system similar to BookMyShow.
 
 ## Requirements
 ### Functional Requirements
