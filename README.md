@@ -10,10 +10,14 @@ Design a movie booking system similar to BookMyShow.
 
 ### Non Functional Requirements
 #### Highly Available & Fault Tolerant
-* System should be availabl all the time.
-*
+Redundancy by replication
+* System should be fault tolerant to network failure.
+* System should be available all the time.
+
+#### High Throughput & Low Latency
+* System should be able to handle multiple concurrent views and bookings with low latency
+
 #### Scalable
-* System should be able to handle concurrent views and bookings.
 
 #### Authentication & Authorization
 * User authentication and autoerization should be delegated to different server.
