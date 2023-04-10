@@ -3,6 +3,10 @@ Design a movie booking system similar to BookMyShow.
 
 ## Requirements
 ### Functional Requirements
+* Booking system should list down different cities where its affiliate cinemas are located.
+* On selecting city, the system should display the movies released in that city.
+* On selcting movie, the system should display the list of multiplexes along with show time and other details.
+* On selecting a show time from the multiplex card, the system should display seating layout for booking the tickets.
 
 ### Non Functional Requirements
 
@@ -21,9 +25,10 @@ Design a movie booking system similar to BookMyShow.
 ### System APIs
 #### Search Service
 * Search
+
 #### Booking Service
 * Booking
-* 
+
 ### System Entities
 ![BookMyShow](https://user-images.githubusercontent.com/33038109/230956141-2a77bf91-e266-4f5c-a195-c81aeafb3cc2.png)
 
