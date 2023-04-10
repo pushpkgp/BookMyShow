@@ -32,6 +32,21 @@ Redundancy by replication
 ### Design Diagram
 
 ### Components
+#### Functional Components
+* Search Service - In-Scope
+* Booking Service - In-Scope
+* Review Service - Out-of-Scope
+* User Details Service - Out-of-Scope
+* Authentication Service - Out-of-Scope
+* Autherization Service - Out-of-Scope
+
+#### Non Functional Components
+* Load Balancer
+* Service Registry & Discovery
+* Circuit Breaker
+* Health
+* Logstash
+* Cache
 
 ## Low Level System Design
 ### System APIs
