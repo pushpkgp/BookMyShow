@@ -9,6 +9,14 @@ Design a movie booking system similar to BookMyShow.
 * On selecting a show time from the multiplex card, the system should display seating layout for booking the tickets.
 
 ### Non Functional Requirements
+#### Highly Available & Fault Tolerant
+* System should be availabl all the time.
+*
+#### Scalable
+* System should be able to handle concurrent views and bookings.
+
+#### Authentication & Authorization
+* User authentication and autoerization should be delegated to different server.
 
 ## Design Considerations
 
